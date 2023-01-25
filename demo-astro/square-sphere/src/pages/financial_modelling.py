@@ -3,6 +3,7 @@ import csv
 warnings.filterwarnings('ignore')
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 # from MCForecastTools import MCSimulation
 
 class MCSimulation:
