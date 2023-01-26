@@ -116,8 +116,8 @@ class MCSimulation:
         # with markings for a 95% confidence interval
         plot_title = f"Distribution of Final Cumuluative Returns Across All {self.nSim} Simulations"
         plt = self.simulated_return.iloc[-1, :]
-        plt.axvline(self.confidence_interval.iloc[0], color='r')
-        plt.axvline(self.confidence_interval.iloc[1], color='r')
+#         plt.axvline(self.confidence_interval.iloc[0], color='r')
+#         plt.axvline(self.confidence_interval.iloc[1], color='r')
         return plt
     
     def summarize_cumulative_return(self):
