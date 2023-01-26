@@ -58,10 +58,10 @@ class MCSimulation:
         
         # Run the simulation of projecting stock prices 'nSim' number of times
         for n in range(self.nSim):
-
+            
             # Create a list of lists to contain the simulated values for each stock
             simvals = [[p] for p in last_prices]
-    
+            
             # For each stock in our data:
             for s in range(len(last_prices)):
 
